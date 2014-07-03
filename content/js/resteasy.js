@@ -43,7 +43,7 @@ function RestEasy() {
     ];
 
     // Initialize the method dropdown
-    var request_method = new Dropdown($('#request-method'), ['GET', 'POST', 'HEAD']);
+    var request_method = new Dropdown($('#request-method'), ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'CONNECT', 'OPTIONS']);
 
     // Initialize the MapInput controls
     var request_parameters = new MapInput($('#request-parameters-control'));
